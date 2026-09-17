@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Space+Grotesk:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-primary: #aff833;
+  --color-primary-dark: #334f00;
+  --color-primary-container: #b6ff3b;
+  --color-on-primary-container: #4d7400;
+  --color-accent: #b6ff3b;
+  --color-surface: #f9f9f9;
+  --color-surface-container: #eeeeee;
+  --color-surface-variant: #e2e2e2;
+  --color-on-surface: #1a1c1c;
+  --color-secondary: #5e5e5e;
+
+  --radius-xl: 1.5rem;
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+
+  --shadow-brutalist-sm: 2px 2px 0px 0px #1a1c1c;
+  --shadow-brutalist: 4px 4px 0px 0px #1a1c1c;
+  --shadow-brutalist-lg: 8px 8px 0px 0px #1a1c1c;
+  --shadow-brutalist-neon: 4px 4px 0px 0px #aff833;
+
+  --animate-border-flicker: border-flicker 0.35s infinite;
+
+  @keyframes border-flicker {
+    0%, 100% {
+      border-color: #1a1c1c;
+      box-shadow: 4px 4px 0px 0px #1a1c1c;
+    }
+    15% {
+      border-color: #aff833;
+      box-shadow: 4px 4px 0px 0px #aff833;
+    }
+    30% {
+      border-color: #1a1c1c;
+      box-shadow: 4px 4px 0px 0px #1a1c1c;
+    }
+    45% {
+      border-color: #aff833;
+      box-shadow: 4px 4px 0px 0px #aff833;
+    }
+    55% {
+      border-color: #1a1c1c;
+      box-shadow: 4px 4px 0px 0px #1a1c1c;
+    }
+    70% {
+      border-color: #1a1c1c;
+      box-shadow: 4px 4px 0px 0px #1a1c1c;
+    }
+    85% {
+      border-color: #aff833;
+      box-shadow: 4px 4px 0px 0px #aff833;
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans;
+    background-image: 
+      linear-gradient(to right, #e2e2e2 1px, transparent 1px),
+      linear-gradient(to bottom, #e2e2e2 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    @apply font-display font-bold uppercase tracking-tight;
+  }
+
+  .label-mono {
+    @apply font-mono text-sm uppercase tracking-wider;
+  }
+}
+
+@layer components {
+  .brutalist-card {
+    @apply bg-white border border-on-surface rounded-lg shadow-brutalist transition-all duration-200;
+  }
+
+  .brutalist-button {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-on-surface rounded-lg font-mono text-sm font-bold uppercase shadow-brutalist active:translate-x-1 active:translate-y-1 active:shadow-none transition-all;
+  }
+
+  .brutalist-button-primary {
+    @apply bg-primary text-on-surface hover:bg-accent;
+  }
+
+  .brutalist-button-secondary {
+    @apply bg-white text-on-surface hover:bg-surface-container;
+  }
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- EduSwathi Full Primary Logo Lockup (Flaticon Edition) -->
+  <!-- 1. Flaticon Container with Brutalist Framing -->
+  <rect x="6" y="8" width="64" height="64" rx="18" fill="#FFFFFF" stroke="#1A1C1C" stroke-width="3.5" />
+  
+  <g transform="translate(14, 16) scale(0.48)">
+    <!-- Book Wings -->
+    <path d="M 46 76 C 30 76 15 70 10 57 C 8 50 12 43 18 42 C 27 41 37 47 45 57 Z" fill="#1A1C1C" />
+    <path d="M 45 74 C 32 74 19 69 14 57 C 13 52 15 47 20 45 C 27 44 36 49 43 57 Z" fill="#2E3333" />
+    <path d="M 18 50 C 24 49 32 53 39 60" stroke="#AFF833" stroke-width="2.5" stroke-linecap="round" />
+
+    <path d="M 54 76 C 70 76 85 70 90 57 C 92 50 88 43 82 42 C 73 41 63 47 55 57 Z" fill="#1A1C1C" />
+    <path d="M 55 74 C 68 74 81 69 86 57 C 87 52 85 47 80 45 C 73 44 64 49 57 57 Z" fill="#2E3333" />
+    <path d="M 82 50 C 76 49 68 53 61 60" stroke="#AFF833" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 2-Tone Leaf -->
+    <path d="M 50 67 C 34 49 36 33 50 20 L 50 67 Z" fill="#AFF833" stroke="#1A1C1C" stroke-width="2" />
+    <path d="M 50 67 C 64 49 66 33 50 20 L 50 67 Z" fill="#72BD0C" stroke="#1A1C1C" stroke-width="2" />
+
+    <!-- Neural Core -->
+    <line x1="50" y1="62" x2="50" y2="33" stroke="#1A1C1C" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="50" cy="46" r="5" fill="#1A1C1C" />
+    <circle cx="50" cy="46" r="2.6" fill="#AFF833" />
+    <circle cx="50" cy="46" r="1.1" fill="#FFFFFF" />
+
+    <path d="M 50 46 L 41 37" stroke="#1A1C1C" stroke-width="2.2" stroke-linecap="round" />
+    <circle cx="41" cy="37" r="2.6" fill="#1A1C1C" />
+    <path d="M 50 46 L 59 37" stroke="#1A1C1C" stroke-width="2.2" stroke-linecap="round" />
+    <circle cx="59" cy="37" r="2.6" fill="#1A1C1C" />
+
+    <!-- Crown Sparkle -->
+    <path d="M 50 3 Q 50 12 41 12 Q 50 12 50 21 Q 50 12 59 12 Q 50 12 50 3 Z" fill="#1A1C1C" stroke="#AFF833" stroke-width="1.8" />
+    <circle cx="50" cy="12" r="1.8" fill="#AFF833" />
+  </g>
+
+  <!-- 2. Wordmark: Edu (Black) + Swathi (Neon Lime-Green) -->
+  <text x="84" y="47" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="900" font-size="32" letter-spacing="-0.04em">
+    <tspan fill="#1A1C1C">Edu</tspan>
+    <tspan fill="#4D7400">Swathi</tspan>
+  </text>
+  
+  <!-- AI Sparkle Tag -->
+  <text x="256" y="32" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="900" font-size="16" fill="#4D7400">✦</text>
+
+  <!-- Tagline -->
+  <text x="85" y="63" font-family="'IBM Plex Mono', monospace" font-weight="700" font-size="8.5" fill="#5E5E5E" letter-spacing="0.22em">
+    AI LEARNING COMPANION
+  </text>
+</svg>

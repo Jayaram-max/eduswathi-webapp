@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <!-- EduSwathi Master Emblem -->
+  <!-- Outer Canvas Background -->
+  <rect width="1000" height="1000" fill="#FFFFFF" />
+
+  <!-- Outer Black Ring -->
+  <circle cx="500" cy="500" r="424" fill="#FFFFFF" stroke="#121316" stroke-width="66" />
+
+  <!-- Main "E" Monogram Shape -->
+  <g id="monogram">
+    <!-- Combined outer silhouette of the "E" with inner cutout -->
+    <path d="
+      M 340 310
+      L 605 310
+      A 55 55 0 0 1 660 365
+      A 55 55 0 0 1 605 420
+      L 380 420
+      A 15 15 0 0 0 365 435
+      L 365 555
+      A 15 15 0 0 0 380 570
+      L 605 570
+      A 55 55 0 0 1 660 625
+      A 55 55 0 0 1 605 680
+      L 340 680
+      A 65 65 0 0 1 275 615
+      L 275 375
+      A 65 65 0 0 1 340 310
+      Z
+    " fill="#121316" />
+
+    <!-- Left Spine Chevron Notch: white arrow pointing into black spine -->
+    <path d="M 270 462 L 310 495 L 270 528 Z" fill="#FFFFFF" stroke="#121316" stroke-width="7" stroke-linejoin="round" />
+
+    <!-- Slanted Neon Lime Capsule Pill -->
+    <g transform="translate(488, 526) rotate(-9.5)">
+      <rect x="-124" y="-39" width="248" height="78" rx="39" fill="#A8F518" />
+    </g>
+
+    <!-- Metallic Wire Loop / Accent Arc -->
+    <path d="M 556 450 C 566 433 596 426 622 435 C 642 443 648 460 646 473" 
+          fill="none" 
+          stroke="#989DA6" 
+          stroke-width="13" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Top-Right 4-Point Neon Lime Sparkle -->
+    <path d="
+      M 672 328
+      Q 672 360 640 360
+      Q 672 360 672 392
+      Q 672 360 704 360
+      Q 672 360 672 328
+      Z
+    " fill="#A8F518" />
+  </g>
+</svg>

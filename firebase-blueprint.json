@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Student or educator profile storing academic streaks, XP, and completed courses",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "role": { "type": "string", "enum": ["student", "organizer", "admin"] },
+        "xp": { "type": "number" },
+        "streak": { "type": "number" },
+        "lastActive": { "type": "string" },
+        "completedCourses": { "type": "array" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "role", "xp", "streak"]
+    },
+    "QuizSubmission": {
+      "title": "Quiz Submission",
+      "description": "Record of student test bench score submissions for active recall",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "quizId": { "type": "string" },
+        "score": { "type": "number" },
+        "submittedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "quizId", "score", "submittedAt"]
+    },
+    "StudyNote": {
+      "title": "Study Note",
+      "description": "Synthesized Socratic textbook study notes saved by the student",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "subject": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "title", "content", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Student profile and academic progress document"
+    },
+    "/users/{userId}/quizSubmissions/{submissionId}": {
+      "schema": { "$ref": "#/entities/QuizSubmission" },
+      "description": "Individual quiz test results for the student"
+    },
+    "/users/{userId}/notes/{noteId}": {
+      "schema": { "$ref": "#/entities/StudyNote" },
+      "description": "Synthesized study guides and notes saved by the student"
+    }
+  }
+}

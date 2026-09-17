@@ -1,0 +1,10 @@
+{
+  "name": "EduSwathi - AI Learning Companion",
+  "description": "EduSwathi - Your Personal AI Learning Companion with Dedicated STEM Socratic Tutors and Cognitive Dashboard.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
