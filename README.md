@@ -3,7 +3,7 @@
 <div align="center">
 
 ![EduSwathi Banner](https://img.shields.io/badge/EduSwathi-AI%20Learning%20Companion-059669?style=for-the-badge&logo=google-gemini&logoColor=white)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-educationswathi.ai.studio-00C781?style=for-the-badge&logo=google-chrome&logoColor=white)](https://educationswathi.ai.studio)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-eduswathi.ai.studio-00C781?style=for-the-badge&logo=google-chrome&logoColor=white)](https://eduswathi.ai.studio)
 
 **Your Personal AI Learning Companion with Dedicated STEM Socratic Tutors, Multimodal Smart Notes, and Cognitive Analytics Dashboard.**
 
