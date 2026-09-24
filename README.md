@@ -17,7 +17,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore_%26_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
-[🌐 Live Demo](https://educationswathi.ai.studio) • [Features](#-key-features) • [Architecture](#-system-architecture) • [Getting Started](#-getting-started) • [Environment Variables](#-environment-variables) • [Tech Stack](#-tech-stack)
+[🌐 Live Demo](https://eduwathi.ai.studio) • [Features](#-key-features) • [Architecture](#-system-architecture) • [Getting Started](#-getting-started) • [Environment Variables](#-environment-variables) • [Tech Stack](#-tech-stack)
 
 </div>
 
@@ -26,7 +26,7 @@
 ## 🌐 Live Demo
 
 Explore the live application directly in your browser:
-👉 **[https://educationswathi.ai.studio](https://eduswathi.ai.studio)**
+👉 **[https://eduswathi.ai.studio](https://eduswathi.ai.studio)**
 
 ---
 
@@ -112,8 +112,6 @@ graph TD
 ### Prerequisites
 Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v18.0.0 or higher recommended)
-- `npm` or `bun`
-- A [Google AI Studio API Key](https://aistudio.google.com/)
 
 ---
 
