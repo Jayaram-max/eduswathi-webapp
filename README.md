@@ -7,7 +7,7 @@
 
 **Your Personal AI Learning Companion with Dedicated STEM Socratic Tutors, Multimodal Smart Notes, and Cognitive Analytics Dashboard.**
 
-[![Live App](https://img.shields.io/badge/🌐_Website-educationswathi.ai.studio-blue?style=flat-square)](https://educationswathi.ai.studio)
+[![Live App](https://img.shields.io/badge/🌐_Website-eduswathi.ai.studio-blue?style=flat-square)](https://eduswathi.ai.studio)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -26,7 +26,7 @@
 ## 🌐 Live Demo
 
 Explore the live application directly in your browser:
-👉 **[https://educationswathi.ai.studio](https://educationswathi.ai.studio)**
+👉 **[https://educationswathi.ai.studio](https://eduswathi.ai.studio)**
 
 ---
 
